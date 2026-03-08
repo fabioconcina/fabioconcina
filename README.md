@@ -1,5 +1,21 @@
+# Fabio Concina
+
+Head of AI & Analytics at [kwantis](https://kwantis.com/). Personal projects below, mostly tools I built for my home server.
+
+---
+
 ### [arpdvark](https://github.com/fabioconcina/arpdvark)
-Terminal-based network inventory tool. Scans your local network using ARP, identifies devices, resolves hostnames and MAC vendors. Go, single binary.
+
+<a href="https://github.com/fabioconcina/arpdvark"><img src="https://raw.githubusercontent.com/fabioconcina/arpdvark/main/assets/banner.png" width="400"></a>
+
+Terminal-based network inventory tool. Scans your local network using ARP, resolves hostnames through system DNS, gateway DNS, and mDNS, and identifies hardware vendors from the IEEE OUI database. Full-screen TUI with auto-refresh, persistent device labels, and rate-limited scanning. Go, single binary, Linux.
 
 ### [alertpaca](https://github.com/fabioconcina/alertpaca)
-Server health checker. Checks CPU, memory, disk (with fill prediction), systemd, Docker, backup freshness, TLS cert expiry, and port drift. Rust, single binary, zero config.
+
+<a href="https://github.com/fabioconcina/alertpaca"><img src="https://raw.githubusercontent.com/fabioconcina/alertpaca/master/assets/banner.png" width="400"></a>
+
+Server health checker. Monitors CPU, memory, disk usage with fill-time prediction, systemd units, Docker containers, backup freshness, TLS certificate expiry, and port drift. Runs as an interactive TUI, a JSON exporter, or an MCP server for AI agents. Rust, single binary, zero config.
+
+---
+
+[fabioconcina.com](https://fabioconcina.com) · [LinkedIn](https://www.linkedin.com/in/fabioconcina)
