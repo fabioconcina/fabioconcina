@@ -20,7 +20,7 @@ Server health checker. Monitors CPU, memory, disk usage with fill-time predictio
 
 <a href="https://github.com/fabioconcina/pingolin"><img src="https://raw.githubusercontent.com/fabioconcina/pingolin/main/assets/banner.png" width="400"></a>
 
-Internet connection health monitor. Tracks ICMP latency, DNS resolution, and HTTP connectivity with outage detection and cause classification. Runs as an interactive TUI, a background daemon with systemd service management, or an MCP server for AI agents. Go, single binary.
+Internet connection health monitor. Tracks ICMP latency, DNS resolution, and HTTP connectivity with outage detection and cause classification. Runs as an interactive TUI, a web dashboard for always-on displays, a background daemon with systemd service management, or an MCP server for AI agents. Go, single binary.
 
 ---
 
