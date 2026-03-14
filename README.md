@@ -16,6 +16,12 @@ Terminal-based network inventory tool. Scans your local network using ARP, resol
 
 Server health checker. Monitors CPU, memory, disk usage with fill-time prediction, systemd units, Docker containers, backup freshness, TLS certificate expiry, and port drift. Runs as an interactive TUI, a JSON exporter, or an MCP server for AI agents. Rust, single binary, zero config.
 
+### [pingolin](https://github.com/fabioconcina/pingolin)
+
+<a href="https://github.com/fabioconcina/pingolin"><img src="https://raw.githubusercontent.com/fabioconcina/pingolin/main/assets/banner.png" width="400"></a>
+
+Internet connection health monitor. Tracks ICMP latency, DNS resolution, and HTTP connectivity with outage detection and cause classification. Runs as an interactive TUI, a background daemon with systemd service management, or an MCP server for AI agents. Go, single binary.
+
 ---
 
 [fabioconcina.com](https://fabioconcina.com) · [LinkedIn](https://www.linkedin.com/in/fabioconcina)
