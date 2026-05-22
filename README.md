@@ -1,8 +1,24 @@
-# Fabio Concina
+### Fabio Concina
 
-Head of AI & Analytics at [kwantis](https://kwantis.com/). Personal projects below, mostly tools I built for my home server.
+Head of AI & Analytics at [kwantis](https://kwantis.com/), based in Milan.
+
+I lead an 8-person engineering team building AI and analytics for the energy sector. Our product is used in production by Eni, Saipem, TotalEnergies, and KOC.
+
+Background in statistics and mathematical engineering: MSc Statistics & Actuarial Science (Trieste, 2015), BSc Mathematical Engineering (Politecnico di Milano, 2012).
+
+[fabioconcina.com](https://fabioconcina.com) · [LinkedIn](https://www.linkedin.com/in/fabioconcina) · [ORCID](https://orcid.org/0000-0002-9562-0426)
 
 ---
+
+### Side projects
+
+Small Go and Rust utilities, plus tooling around Claude Code.
+
+### [claumon](https://github.com/fabioconcina/claumon)
+
+<a href="https://github.com/fabioconcina/claumon"><img src="https://raw.githubusercontent.com/fabioconcina/claumon/main/assets/screenshot.png" width="400"></a>
+
+Claude Code dashboard. Rate limit gauges, per-session token breakdowns, cost estimates, historical trends, conversation history, and a memory browser with health scores and staleness alerts. Single binary, real-time SSE updates, SQLite-backed daily aggregates. Go, runs on macOS, Linux, Windows.
 
 ### [arpdvark](https://github.com/fabioconcina/arpdvark)
 
@@ -15,13 +31,3 @@ Terminal-based network inventory tool. Scans your local network using ARP, resol
 <a href="https://github.com/fabioconcina/alertpaca"><img src="https://raw.githubusercontent.com/fabioconcina/alertpaca/master/assets/banner.png" width="400"></a>
 
 Server health checker. Monitors CPU, memory, disk usage with fill-time prediction, systemd units, Docker containers, backup freshness, TLS certificate expiry, and port drift. Runs as an interactive TUI, a JSON exporter, or an MCP server for AI agents. Rust, single binary, zero config.
-
-### [pingolin](https://github.com/fabioconcina/pingolin)
-
-<a href="https://github.com/fabioconcina/pingolin"><img src="https://raw.githubusercontent.com/fabioconcina/pingolin/main/assets/banner.png" width="400"></a>
-
-Internet connection health monitor. Tracks ICMP latency, DNS resolution, and HTTP connectivity with outage detection and cause classification. Runs as an interactive TUI, a web dashboard for always-on displays, a background daemon with systemd service management, or an MCP server for AI agents. Go, single binary.
-
----
-
-[fabioconcina.com](https://fabioconcina.com) · [LinkedIn](https://www.linkedin.com/in/fabioconcina)
