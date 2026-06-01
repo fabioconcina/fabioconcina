@@ -16,9 +16,10 @@ Small Go and Rust utilities, plus tooling around Claude Code.
 
 ### [claumon](https://github.com/fabioconcina/claumon)
 
-<a href="https://github.com/fabioconcina/claumon"><img src="https://raw.githubusercontent.com/fabioconcina/claumon/main/assets/screenshot.png" width="400"></a>
+<a href="https://github.com/fabioconcina/claumon"><img src="https://raw.githubusercontent.com/fabioconcina/claumon/main/assets/overview.png" width="290"></a>
+<a href="https://github.com/fabioconcina/claumon"><img src="https://raw.githubusercontent.com/fabioconcina/claumon/main/assets/session-forecast.png" width="290"></a>
 
-Claude Code dashboard. Rate-limit gauges with an embedded empirical-Bayes forecaster: projected utilization at reset with an 80% credible interval, ETA to threshold, and a Low/Med/High confidence tag. The rate is estimated by conjugate update of an OLS slope against a Gaussian prior refit daily from past windows; path noise is Brownian and ETAs are Monte Carlo'd. Also per-session token breakdowns, cost estimates, historical trends, conversation history, and a memory browser with health scores and staleness alerts. Single binary, real-time SSE updates, SQLite-backed daily aggregates. Go, runs on macOS, Linux, Windows.
+Claude Code dashboard. Rate-limit gauges with an embedded empirical-Bayes forecaster: projected utilization at reset with an 80% credible interval and ETA to threshold. The rate is estimated by conjugate update of an OLS slope against a Gaussian prior refit daily from past windows; path noise is Brownian and ETAs are Monte Carlo'd. Also per-session token breakdowns, cost estimates, historical trends, conversation history, and a memory browser with health scores and staleness alerts. Single binary, real-time SSE updates, SQLite-backed daily aggregates. Go, runs on macOS, Linux, Windows.
 
 ### [arpdvark](https://github.com/fabioconcina/arpdvark)
 
