@@ -2,7 +2,7 @@
 
 Head of AI & Analytics at [kwantis](https://kwantis.com/), based in Milan.
 
-I lead an 8-person engineering team building AI and analytics for the energy sector. Our product is used in production by energy companies including Eni, Saipem, TotalEnergies, and KOC.
+I lead an 8-person engineering team building AI and analytics for the energy sector. Our product is used in production by energy companies including Eni, Saipem, TotalEnergies, and Weatherford.
 
 Background in statistics and mathematical engineering: MSc Statistics & Actuarial Science (Trieste, 2015), BSc Mathematical Engineering (Politecnico di Milano, 2012).
 
