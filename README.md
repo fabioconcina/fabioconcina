@@ -16,10 +16,13 @@ Small Go and Rust utilities, plus tooling around Claude Code.
 
 ### [claumon](https://github.com/fabioconcina/claumon)
 
+<a href="https://github.com/fabioconcina/claumon"><img src="https://raw.githubusercontent.com/fabioconcina/claumon/main/assets/logo.png" alt="claumon" height="170"></a>
 <a href="https://github.com/fabioconcina/claumon"><img src="https://raw.githubusercontent.com/fabioconcina/claumon/main/assets/overview.png" height="170"></a>
 <a href="https://github.com/fabioconcina/claumon"><img src="https://raw.githubusercontent.com/fabioconcina/claumon/main/assets/session-forecast.png" height="170"></a>
 
-Claude Code dashboard. Rate-limit gauges with an embedded empirical-Bayes forecaster: projected utilization at reset with an 80% credible interval and ETA to threshold. The rate is estimated by conjugate update of an OLS slope against a Gaussian prior refit daily from past windows; path noise is Brownian and ETAs are Monte Carlo'd. Also per-session token breakdowns, cost estimates, historical trends, conversation history, and a memory browser with health scores and staleness alerts. Single binary, real-time SSE updates, SQLite-backed daily aggregates. Go, runs on macOS, Linux, Windows.
+Claude Code dashboard that shows where your rate limits are headed before you hit them. Live session, weekly, and per-model gauges with an embedded empirical-Bayes forecaster: projected utilization at reset with an 80% credible interval and ETA to threshold. The rate is a conjugate update of an OLS slope against a Gaussian prior refit daily from past windows; usage paths are simulated as a monotone Gamma process, and the interval and ETAs come from the same Monte Carlo. The model has a [published spec](https://github.com/fabioconcina/claumon/blob/main/internal/forecast/MODEL.pdf) and is benchmarked out-of-sample with proper scoring rules (CRPS, pinball loss, interval coverage). Also per-session token and cost breakdowns, 7 to 90 day trends, running-process control, and a memory browser with health scores, staleness alerts, and recoverable deletion. Single binary, real-time SSE updates, SQLite-backed history. Go, runs on macOS, Linux, Windows.
+
+Mentioned in [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code). Available on Homebrew, plus a companion VS Code extension that puts live usage and the forecast in the status bar. Site: [claumon.fabioconcina.com](https://claumon.fabioconcina.com).
 
 ### [arpdvark](https://github.com/fabioconcina/arpdvark)
 
